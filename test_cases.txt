@@ -1,0 +1,19 @@
+Test Case 1: High Score
+Input Name: Amit
+Input Marks: 95
+Expected: Grade A, Message "Excellent work!"
+
+Test Case 2: Validation Check (Too High)
+Input Name: TestUser
+Input Marks: 150
+Expected: "Invalid input! Marks must be between 0 and 100."
+
+Test Case 3: Validation Check (Not a number)
+Input Name: TestUser
+Input Marks: "hello"
+Expected: "Invalid input! Please enter a valid number."
+
+Test Case 4: Boundary Check
+Input Name: Sarah
+Input Marks: 79
+Expected: Grade C (Not B)
